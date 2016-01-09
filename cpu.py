@@ -5,9 +5,6 @@ __virtualname__ = 'cpu'
 
 import logging
 
-# Import Salt libs
-import salt.utils
-
 # Import Third Party Libs
 try:
     import psutil
